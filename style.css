@@ -33,3 +33,21 @@ h1 {
     width: 150px;
     height: 100px;
   }
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+.card {
+  width: 277px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.card img {
+    width: 20%;
+    height: 20%;
+}
