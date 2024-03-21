@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 44%;
+    background-color: #ffDD95;
+    border-bottom: 1px solid #513c28;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3468c0;
+  }
+
+  .container {
+    display: flex; 
+    /* padding-top: 2rem; */
+  }
+
+  .column {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 10px; 
+    color: #3468c0;
+  }
+
+  .profil img {
+    width: 150px;
+    height: 100px;
+  }
